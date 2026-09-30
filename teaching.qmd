@@ -1,0 +1,53 @@
+---
+title: "Teaching"
+subtitle: "Courses in data science, program evaluation, and public and nonprofit management. Materials are open source, and you're welcome to use and adapt them."
+page-layout: article
+listing:
+  - id: peda
+    contents: data/teaching.yml
+    template: _ejs/cards.ejs
+    include: {group: peda}
+  - id: management
+    contents: data/teaching.yml
+    template: _ejs/cards.ejs
+    include: {group: management}
+  - id: data
+    contents: data/teaching.yml
+    template: _ejs/cards.ejs
+    include: {group: data}
+  - id: policy
+    contents: data/teaching.yml
+    template: _ejs/cards.ejs
+    include: {group: policy}
+  - id: resources
+    contents: data/teaching.yml
+    template: _ejs/cards.ejs
+    include: {group: resources}
+---
+
+## M.S. in Program Evaluation & Data Analytics
+
+I created the core courses for the [MS-PEDA program](https://ds4ps.org/ms-prog-eval-data-analytics/courses/) at ASU as its founding director. The source code for each class, including lectures and labs, is on GitHub under an open license through [DS4PS](https://github.com/DS4PS).
+
+::: {#peda}
+:::
+
+## Management
+
+::: {#management}
+:::
+
+## Data & statistics
+
+::: {#data}
+:::
+
+## Public policy
+
+::: {#policy}
+:::
+
+## Open textbooks & resources
+
+::: {#resources}
+:::

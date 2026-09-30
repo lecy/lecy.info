@@ -1,0 +1,25 @@
+```{=html}
+<div class="card-grid list">
+<% for (const item of items) {
+     const links = item.links || [];
+     const main = links.length ? links[0].url : null; %>
+  <div class="res-card" <%= metadataAttrs(item) %>>
+    <div class="res-head">
+      <% if (item.tag) { %><span class="res-tag"><%= item.tag %></span><% } %>
+      <% if (item.code) { %><span class="res-tag"><%= item.code %></span><% } %>
+    </div>
+    <h3 class="res-title listing-title">
+      <% if (main) { %><a href="<%- main %>"><%= item.title %></a><% } else { %><%= item.title %><% } %>
+    </h3>
+    <% if (item.description) { %><p class="res-desc listing-description"><%= item.description %></p><% } %>
+    <% if (links.length) { %>
+    <div class="res-links">
+      <% for (const l of links) { %>
+        <a class="chip" href="<%- l.url %>"><%= l.label %> <i class="bi bi-arrow-up-right"></i></a>
+      <% } %>
+    </div>
+    <% } %>
+  </div>
+<% } %>
+</div>
+```

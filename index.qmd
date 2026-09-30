@@ -1,0 +1,71 @@
+---
+title: "Jesse D. Lecy"
+subtitle: "Public Affairs · Nonprofit Economics · Data Science"
+pagetitle: "Jesse D. Lecy"
+image: images/headshot.jpg
+about:
+  template: solana
+  id: hero-heading
+  image-width: 14em
+  image-shape: rounded
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:jdlecy@asu.edu
+    - icon: github
+      text: GitHub
+      href: https://github.com/lecy
+    - icon: mortarboard-fill
+      text: Scholar
+      href: https://scholar.google.com/citations?user=Ir8H4wMAAAAJ
+    - icon: file-earmark-text
+      text: CV
+      href: s/Lecy-CV-2024.pdf
+listing:
+  id: selected-pubs
+  contents: data/publications.yml
+  template: _ejs/publications.ejs
+  include:
+    featured: true
+  sort: "year desc"
+---
+
+::: {#hero-heading}
+
+I am an Associate Professor in Public Affairs at **Arizona State University** and the founding director of the [M.S. in Program Evaluation and Data Analytics](https://asuonline.asu.edu/online-degree-programs/graduate/program-evaluation-and-data-analytics-ms). I also work as a Data Scientist at the **Urban Institute**, supporting the [National Center for Charitable Statistics](https://nccs.urban.org/) (NCCS).
+
+My research covers the economics of the nonprofit sector, social innovation, urban policy, and the governance of artificial intelligence: nonprofit entrepreneurship, capital markets for social enterprise, performance management, open science methods, and algorithmic fairness.
+
+I teach master's and PhD courses in public management, nonprofit management, program evaluation, urban policy, and data science.
+
+:::
+
+::: {.home-grid}
+
+::: {.home-block}
+### Education
+
+**Ph.D. in Social Science**, 2010
+Syracuse University
+
+**Master of Public Policy**, 2006
+Carnegie Mellon University
+:::
+
+::: {.home-block}
+### Contact
+
+School of Public Affairs
+Arizona State University
+411 N. Central Ave, Suite 517
+Phoenix, AZ 85004
+:::
+
+:::
+
+## Selected publications
+
+::: {#selected-pubs}
+:::
+
+[All publications →](publications.qmd){.more-link}

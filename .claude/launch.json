@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "site",
+      "runtimeExecutable": "C:\\Program Files\\RStudio\\resources\\app\\bin\\quarto\\bin\\tools\\x86_64\\deno.exe",
+      "runtimeArgs": ["run", "--allow-net", "--allow-read", ".claude/serve.ts"],
+      "port": 4321
+    }
+  ]
+}

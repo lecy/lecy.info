@@ -1,0 +1,347 @@
+# Publications -----------------------------------------------------------
+#
+# One entry per publication. Newest first isn't required: pages sort by year.
+#
+# Fields
+#   title:    required
+#   authors:  as you want them printed; "Lecy" is bolded automatically
+#   year:     number (use 9999 for "forthcoming" / working papers if you like)
+#   venue:    journal, book, or publisher
+#   details:  volume / issue / pages (optional)
+#   type:     one of: Article, Chapter, Book, Report, Working Paper
+#   featured: true  -> also shown under "Selected publications" on the home page
+#   note:     optional award or remark
+#   links:    list of {label, url}. Common labels: PDF, DOI, Code, Data,
+#             Replication, Methods, Report, Review, Protocol, R package
+#
+# Paths starting with s/ are PDFs from the old Squarespace site; keep the files
+# in the s/ folder so old links to lecy.info/s/... keep working.
+# -------------------------------------------------------------------------
+
+- title: "Examining the Association Between State Lobbying Regulations and Nonprofit Lobbying Expenditures"
+  authors: "Ward, K. D., Grasse, N., & Lecy, J."
+  year: 2025
+  venue: "Nonprofit and Voluntary Sector Quarterly"
+  type: Article
+  links:
+    - {label: DOI, url: "https://doi.org/10.1177/08997640251329821"}
+
+- title: "Some Good News, More Bad News: Two Decades of the Gender Pay Gap for Nonprofit Directors and Chief Financial Officers"
+  authors: "Grasse, N. J., Heidbreder, B., Kukla-Acevedo, S. A., & Lecy, J. D."
+  year: 2024
+  venue: "Review of Public Personnel Administration"
+  type: Article
+  featured: true
+  links:
+    - {label: DOI, url: "https://doi.org/10.1177/0734371X241248854"}
+
+- title: "Embracing Data-Driven Management: Adapting Public Administration Theory and Performance Management for the Digital Age"
+  authors: "Lecy, J. D."
+  year: 2024
+  venue: "SSRN Working Paper"
+  type: Working Paper
+  links:
+    - {label: SSRN, url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4754600"}
+
+- title: "Administration Costs"
+  authors: "Li, T., Searing, E. A., & Lecy, J. D."
+  year: 2023
+  venue: "Elgar Encyclopedia of Nonprofit Management, Leadership and Governance"
+  details: "pp. 13–16. Edward Elgar Publishing."
+  type: Chapter
+
+- title: "Misuse, Misunderstanding, and Misinterpretation of Nonprofit Accounting Information"
+  authors: "Lecy, J. D., Searing, E. A. M., & Li, T."
+  year: 2023
+  venue: "Accounting Research on Nonprofit Organizations"
+  details: "L. Parsons & D. Tinkelman (Eds.). Edward Elgar Publishing."
+  type: Chapter
+
+- title: "Funding Structure of Asian American, Native Hawaiian, and Pacific Islander Nonprofits: Fiscal Models and Government Support"
+  authors: "Lecy, J. D."
+  year: 2023
+  venue: "Urban Institute"
+  type: Report
+  links:
+    - {label: Report, url: "https://www.urban.org/research/publication/funding-structure-aanhpi-nonprofits"}
+    - {label: R package, url: "https://github.com/Nonprofit-Open-Data-Collective/fiscal"}
+
+- title: "The Wells-Du Bois Protocol for Mitigating Machine Learning Bias: Building Critical Quantitative Foundations for Third Sector Scholarship"
+  authors: "Monroe-White, T., & Lecy, J. D."
+  year: 2022
+  venue: "VOLUNTAS: International Journal of Voluntary and Nonprofit Organizations"
+  type: Article
+  featured: true
+  links:
+    - {label: PDF, url: "s/Wells-DuBois-Protocol.pdf"}
+    - {label: Protocol, url: "https://lecy.github.io/wells-dubois-protocol/"}
+
+- title: "How to Code a Million Missions: Developing Bespoke Nonprofit Activity Codes Using Machine Learning Algorithms"
+  authors: "Santamarina, F. J., Lecy, J. D., & van Holm, E. J."
+  year: 2022
+  venue: "VOLUNTAS: International Journal of Voluntary and Nonprofit Organizations"
+  type: Article
+  featured: true
+  links:
+    - {label: PDF, url: "s/HowToCodeAMillionMissions-VOLUNTAS.pdf"}
+    - {label: Code, url: "https://fjsantam.github.io/bespoke-npo-taxonomies/"}
+
+- title: "Net Impact of Government Funding on Nonprofit Fiscal Health: Burden or Benefit?"
+  authors: "Thornton, J., & Lecy, J. D."
+  year: 2022
+  venue: "Nonprofit Management and Leadership"
+  type: Article
+  links:
+    - {label: PDF, url: "s/thornton-lecy-net-impact-gov-funding-fiscal-health.pdf"}
+
+- title: "Diversity in Nonprofit Entrepreneurship"
+  authors: "Kim, M., Andersson, F. O., Faulk, L., Harrison, T., & Lecy, J. D."
+  year: 2022
+  venue: "White paper prepared for Independent Sector"
+  type: Report
+
+- title: "The Financial Health of Community Based Development Organizations"
+  authors: "Lo, L., Scally, C. P., Lecy, J., & Kumari, S."
+  year: 2022
+  venue: "Urban Institute"
+  type: Report
+  links:
+    - {label: Report, url: "https://www.urban.org/research/publication/financial-health-community-based-development-organizations"}
+    - {label: Methods, url: "https://lecy.github.io/fiscal-health/metric-01-debt-to-asset-ratio.html"}
+    - {label: R package, url: "https://github.com/Nonprofit-Open-Data-Collective/fiscal"}
+
+- title: "Growing Up Nonprofit: Predictors of Early-Stage Nonprofit Formalization"
+  authors: "Searing, E. A., & Lecy, J. D."
+  year: 2022
+  venue: "Nonprofit and Voluntary Sector Quarterly"
+  type: Article
+  links:
+    - {label: PDF, url: "s/searing-lecy-growing-up-nonprofit.pdf"}
+    - {label: Replication, url: "https://lecy.github.io/np-formalization/"}
+
+- title: "Nonprofit Entrepreneurship: Gender Differences in Strategy and Practice"
+  authors: "Camarena, L., Feeney, M. K., & Lecy, J. D."
+  year: 2021
+  venue: "Nonprofit and Voluntary Sector Quarterly"
+  type: Article
+  links:
+    - {label: SSRN, url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3795647"}
+
+- title: "Artificial Discretion as a Tool of Governance: A Framework for Understanding the Impact of Artificial Intelligence on Public Administration"
+  authors: "Bullock, J., Lecy, J., & Young, M."
+  year: 2019
+  venue: "Perspectives on Public Management and Governance"
+  type: Article
+  featured: true
+  links:
+    - {label: PDF, url: "s/Young-Bullock-Lecy-PPMG-2019.pdf"}
+
+- title: "Going the Extra Mile: The 'Liabilities of Foreignness' in U.S. Foundation International Grantmaking to Local NGOs"
+  authors: "Oelberger, C., Lecy, J., & Yamawaki Shachter, S."
+  year: 2019
+  venue: "Nonprofit and Voluntary Sector Quarterly"
+  type: Article
+  links:
+    - {label: PDF, url: "s/oelberger-lecy-shachter-going-extra-mile.pdf"}
+
+- title: "Good Enough for Government Work: Nonprofit Corporate Form and Contract Failure in Federal Awards Markets"
+  authors: "Thornton, J., & Lecy, J."
+  year: 2019
+  venue: "Nonprofit Policy Forum"
+  type: Article
+  links:
+    - {label: PDF, url: "s/Thornton-Lecy-NPF-2019.pdf"}
+
+- title: "Do Nonprofit Missions Vary by the Political Ideology of Supporting Communities? Some Preliminary Results"
+  authors: "Lecy, J., Ashley, S., & Santamarina, F."
+  year: 2019
+  venue: "Public Performance and Management Review"
+  type: Article
+  links:
+    - {label: PDF, url: "s/Lecy-Ashley-Santamarina-PPMR-2019.pdf"}
+    - {label: Replication, url: "https://lecy.github.io/political-ideology-of-nonprofits/"}
+
+- title: "Mapping the Historical Development of Physical Activity and Health Research: A Structured Literature Review and Citation Network Analysis"
+  authors: "Varela, A. R., Pratt, M., Harris, J., Lecy, J., Salvo, D., Brownson, R. C., & Hallal, P. C."
+  year: 2018
+  venue: "Preventive Medicine"
+  details: "111, 466–472."
+  type: Article
+  links:
+    - {label: PDF, url: "s/Varela-et-al-2018-Preventive-Medicine.pdf"}
+    - {label: Editorial, url: "s/Editorial-on-Varela-et-al-2018.pdf"}
+
+- title: "Assessing Citation Networks for Dissemination and Implementation Research Frameworks"
+  authors: "Skolarus, T. A., Lehmann, T., Tabak, R. G., Harris, J., Lecy, J., & Sales, A. E."
+  year: 2017
+  venue: "Implementation Science"
+  details: "12(1), 97."
+  type: Article
+  links:
+    - {label: Article, url: "https://implementationscience.biomedcentral.com/articles/10.1186/s13012-017-0628-2"}
+
+- title: "The Social Enterprise Zoo: A Guide for Perplexed Scholars, Entrepreneurs, Philanthropists, Leaders, Investors, and Policymakers"
+  authors: "Young, D. R., Searing, E. A., & Brewer, C. V. (Eds.). Chapters 5, 6, 7, and 10 co-authored by Lecy."
+  year: 2016
+  venue: "Edward Elgar Publishing"
+  type: Book
+  links:
+    - {label: Ch. 5, url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Ir8H4wMAAAAJ&citation_for_view=Ir8H4wMAAAAJ:bEWYMUwI8FkC"}
+    - {label: Ch. 6, url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Ir8H4wMAAAAJ&citation_for_view=Ir8H4wMAAAAJ:j3f4tGmQtD8C"}
+    - {label: Ch. 7, url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Ir8H4wMAAAAJ&citation_for_view=Ir8H4wMAAAAJ:iH-uZ7U-co4C"}
+    - {label: Ch. 10, url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Ir8H4wMAAAAJ&citation_for_view=Ir8H4wMAAAAJ:r0BpntZqJG4C"}
+    - {label: Review, url: "s/Shockley-SE-Zoo-Review.pdf"}
+    - {label: Review, url: "s/CUI-SE-Zoo-Review.pdf"}
+
+- title: "Disciplinary Divides in Post-Conflict Justice and Peace: Tracking If and How We Share Ideas"
+  authors: "Millar, G., & Lecy, J."
+  year: 2016
+  venue: "Journal of Intervention and Statebuilding"
+  details: "10(3), 302–320."
+  type: Article
+  links:
+    - {label: PDF, url: "s/Millar-Lecy-2016-Bridging-Disciplinary-Divides.pdf"}
+
+- title: "What Big Data Can Tell Us about Government Awards to the Nonprofit Sector: Using the FAADS Dataset"
+  authors: "Lecy, J., & Thornton, J."
+  year: 2016
+  venue: "Nonprofit and Voluntary Sector Quarterly"
+  type: Article
+  featured: true
+  links:
+    - {label: PDF, url: "s/FAADS-2015-Lecy-Thornton.pdf"}
+    - {label: Code, url: "https://github.com/lecy/FAADS-NCCS-Crosswalk"}
+
+- title: "Competitive Advantage in Nonprofit Grant Markets: Implications of Network Embeddedness and Status"
+  authors: "Faulk, L., Lecy, J., & McGinnis, J."
+  year: 2016
+  venue: "International Public Management Journal"
+  type: Article
+  links:
+    - {label: PDF, url: "s/IPMJ-Faulk-McGinnis-Lecy-PUBLISHED.pdf"}
+
+- title: "The Meta-Analytic Big Bang"
+  authors: "Shadish, W., & Lecy, J."
+  year: 2015
+  venue: "Research Synthesis Methods"
+  details: "6(3), 246–264."
+  type: Article
+  links:
+    - {label: PDF, url: "s/Shadish-Meta-Analytic-Big-Bang-Final.pdf"}
+
+- title: "Anatomy of the Nonprofit Starvation Cycle"
+  authors: "Lecy, J., & Searing, E."
+  year: 2015
+  venue: "Nonprofit and Voluntary Sector Quarterly"
+  details: "44(3), 539–563."
+  type: Article
+  featured: true
+  links:
+    - {label: PDF, url: "s/NVSQ-2014-Lecy-and-Searing-e9xi.pdf"}
+
+- title: "Defining the Universe of Social Enterprise: Competing Metaphors"
+  authors: "Young, D., & Lecy, J."
+  year: 2014
+  venue: "VOLUNTAS: International Journal of Voluntary and Nonprofit Organizations"
+  details: "25(5), 1307–1332."
+  type: Article
+  links:
+    - {label: PDF, url: "s/Young-and-Lecy-2014.pdf"}
+
+- title: "Networks in Public Administration: Current Scholarship in Review"
+  authors: "Lecy, J., Mergel, I., & Schmitz, H. P."
+  year: 2014
+  venue: "Public Management Review"
+  details: "16(5), 643–665."
+  type: Article
+  links:
+    - {label: PDF, url: "s/Networks-in-Public-Administration-Lecy-Mergel-and-Schmitz-2013.pdf"}
+
+- title: "Mapping the Development of Research on Physical Activity and the Built Environment"
+  authors: "Harris, J., Lecy, J., Hipp, A., Brownson, R., & Parra, D."
+  year: 2013
+  venue: "Preventive Medicine"
+  details: "57(5), 533–540."
+  type: Article
+  links:
+    - {label: PDF, url: "s/Harris-et-al-2013-Physical-Activity-and-the-Built-Environment-za18.pdf"}
+
+- title: "The Impact of Psychological Trauma on Wages in Post-Conflict Bosnia and Herzegovina"
+  authors: "Searing, E., Rios-Avila, F., & Lecy, J."
+  year: 2013
+  venue: "Social Science & Medicine"
+  details: "96, 165–173."
+  type: Article
+  links:
+    - {label: PDF, url: "s/Searing-Lecy-RiosAvila-2013-SSM-PTSD-Labor-Market-usbz.pdf"}
+
+- title: "Nonprofit Sector Growth and Density: Testing Theories of Government Support"
+  authors: "Lecy, J., & Van Slyke, D."
+  year: 2013
+  venue: "Journal of Public Administration Research and Theory"
+  details: "Vol. 22, Issue 4."
+  type: Article
+  links:
+    - {label: PDF, url: "s/J-Public-Adm-Res-Theory-2012-Lecy-jopart_mus010.pdf"}
+
+- title: "A Semantic Network Analysis of Economic Policy Regime Changes in North Korea from the Mid 1980s to 2009"
+  authors: "Choi, C., & Lecy, J."
+  year: 2012
+  venue: "Governance"
+  details: "Vol. 24, Issue 4."
+  type: Article
+  links:
+    - {label: PDF, url: "s/choi-and-lecy-2012-korean-policy-networks.pdf"}
+    - {label: Methods, url: "s/Semantic-Network-Analysis.pptx"}
+
+- title: "NGO and NPO Effectiveness: A Modern Synthesis"
+  authors: "Lecy, J., Schmitz, H. P., & Swedlund, H."
+  year: 2012
+  venue: "VOLUNTAS: International Journal of Voluntary and Nonprofit Organizations"
+  details: "23(2), 434–457."
+  type: Article
+  featured: true
+  note: "ISTR Best Paper Award for articles published in 2012"
+  links:
+    - {label: PDF, url: "s/LecySchmitzSwedlund-h79f.pdf"}
+
+- title: "The Evolution of Health Systems Research: A Citation Network Analysis"
+  authors: "Harris, J., Beatty, K., Lecy, J., Cyr, J., & Shapiro, R."
+  year: 2011
+  venue: "American Journal of Preventive Medicine"
+  details: "41(1), 105–111."
+  type: Article
+  links:
+    - {label: PDF, url: "s/AJPM-2011-Final-Published-au51.pdf"}
+
+- title: "New Approaches to Evaluation: Comparative Impact Assessment"
+  authors: "Lecy, J."
+  year: 2010
+  venue: "Journal of Civil Society and Social Transformation"
+  details: "Vol. 5."
+  type: Article
+
+- title: "Structuring Global Advocacy: Explaining Organizational Change and the Emergence of Transnational Networks"
+  authors: "Lecy, J., Mitchell, G., & Schmitz, H. P."
+  year: 2010
+  venue: "Rethinking Advocacy Organizations: A Collective Action Perspective"
+  details: "A. Prakash & M. K. Gugerty (Eds.). Cambridge University Press."
+  type: Chapter
+  links:
+    - {label: PDF, url: "s/Lecy-Mitchell-Schmitz-Advocacy-Networks.pdf"}
+
+- title: "The Balance of All Things: Explaining Household Poverty Dynamics in 50 Villages of Gujarat, India"
+  authors: "Krishna, A., & Lecy, J."
+  year: 2008
+  venue: "International Journal of Multiple Research Approaches"
+  details: "2(2), 160–175."
+  type: Article
+  links:
+    - {label: PDF, url: "s/krishna-lecy-final.pdf"}
+
+- title: "Aid Effectiveness After the Gujarat Earthquake: A Case Study of Disaster Relief"
+  authors: "Lecy, J."
+  year: 2007
+  venue: "Journal of Development and Social Transformation"
+  details: "Vol. 4, 5–12."
+  type: Article

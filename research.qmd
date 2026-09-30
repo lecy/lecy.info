@@ -1,0 +1,44 @@
+---
+title: "Research"
+subtitle: "Software, data, and methods I build and support, mostly open source and aimed at making nonprofit and public sector data easier to use."
+page-layout: article
+listing:
+  - id: software
+    contents: data/research.yml
+    template: _ejs/cards.ejs
+    include: {group: software}
+  - id: data
+    contents: data/research.yml
+    template: _ejs/cards.ejs
+    include: {group: data}
+  - id: methods
+    contents: data/research.yml
+    template: _ejs/cards.ejs
+    include: {group: methods}
+  - id: policy
+    contents: data/research.yml
+    template: _ejs/cards.ejs
+    include: {group: policy}
+---
+
+## R packages
+
+Most of these live in the [Nonprofit Open Data Collective](https://github.com/Nonprofit-Open-Data-Collective) on GitHub and support the NCCS data infrastructure.
+
+::: {#software}
+:::
+
+## Data
+
+::: {#data}
+:::
+
+## Methods & protocols
+
+::: {#methods}
+:::
+
+## Research in action
+
+::: {#policy}
+:::

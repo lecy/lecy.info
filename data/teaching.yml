@@ -1,0 +1,147 @@
+# Courses and teaching resources -------------------------------------------
+#
+# `group` decides the section on teaching.qmd:
+#   peda | management | data | policy | resources
+#
+#   title, group: required
+#   code:        course number (optional)
+#   description: short blurb (optional)
+#   links:       list of {label, url}
+# -------------------------------------------------------------------------
+
+# ---- MS in Program Evaluation & Data Analytics (ASU) -------------------------
+
+- title: Foundations of Data Science I
+  code: CPP 526
+  group: peda
+  description: "Data programming in R: data structures, wrangling, visualization, and reproducible reports."
+  links:
+    - {label: Course site, url: "https://ds4ps.org/cpp-526-spr-2021/schedule/"}
+    - {label: GitHub, url: "https://github.com/DS4PS/cpp-526-spr-2021"}
+
+- title: Foundations of Data Science II
+  code: PAF 514
+  group: peda
+  description: "Programming fundamentals, functions, simulations, and text data."
+  links:
+    - {label: Course site, url: "https://watts-college.github.io/paf-514-template/"}
+    - {label: GitHub, url: "https://github.com/Watts-College/paf-514-template"}
+
+- title: Foundations of Data Science III
+  code: CPP 528
+  group: peda
+  description: "Project management and collaborative data science workflows."
+  links:
+    - {label: Course site, url: "https://ds4ps.org/cpp-528-spr-2021/schedule/"}
+    - {label: GitHub, url: "https://github.com/DS4PS/cpp-528-spr-2021"}
+
+- title: Foundations of Program Evaluation I
+  code: CPP 523
+  group: peda
+  description: "Regression as a tool for estimating program impact."
+  links:
+    - {label: Course site, url: "https://ds4ps.org/cpp-523-spr-2021/schedule/"}
+    - {label: GitHub, url: "https://github.com/DS4PS/cpp-523-spr-2021"}
+
+- title: Foundations of Program Evaluation II
+  code: CPP 524
+  group: peda
+  description: "Research design and the threats to validity in evaluation."
+  links:
+    - {label: Course site, url: "https://watts-college.github.io/cpp-524-fall-2021/schedule/"}
+    - {label: GitHub, url: "https://github.com/Watts-College/cpp-524-fall-2021"}
+
+- title: Foundations of Program Evaluation III
+  code: CPP 525
+  group: peda
+  description: "Quasi-experimental methods for estimating program impact."
+  links:
+    - {label: Course site, url: "https://watts-college.github.io/cpp-525-spr-2022/"}
+    - {label: GitHub, url: "https://github.com/Watts-College/cpp-525-spr-2022"}
+
+- title: Community Analytics
+  code: CPP 529
+  group: peda
+  description: "Data practicum on models of neighborhood change."
+  links:
+    - {label: Course site, url: "https://ds4ps.org/cpp-529-spr-2021/schedule/"}
+    - {label: GitHub, url: "https://github.com/DS4PS/cpp-529-spr-2021"}
+
+# ---- Management -----------------------------------------------------------
+
+- title: Data for the Public Good
+  code: PAF 586
+  group: management
+  description: "Techniques for data extraction, analysis, and visualization, and strategies for bringing data into management practice in public and nonprofit organizations."
+  links:
+    - {label: Course site, url: "http://ds4ps.org/paf-586-summer-2019/"}
+    - {label: Reading summaries, url: "http://ds4ps.org"}
+    - {label: GSU adaptation, url: "https://aysps.github.io/bigdata4publicgood/"}
+
+- title: Public Organizations and Management
+  group: management
+  description: "Strategic planning, performance management, motivation, collaboration, and decision making in the public sector."
+  links:
+    - {label: Syllabus, url: "s/2016-Spring-POM-Syllabus-for-Lecy.pdf"}
+
+- title: Nonprofit Management
+  group: management
+  description: "The history of the nonprofit sector, theories that guide nonprofit research, and governance and leadership challenges."
+  links:
+    - {label: Syllabus, url: "s/Nonprofit-Management-Spring-2016-Lecy.pdf"}
+
+# ---- Data & statistics ------------------------------------------------------
+
+- title: Intro to Data Science for the Social Sector
+  group: data
+  description: "A practical, tools-based introduction to data programming in R, visualization, automated reporting, and dashboards. No prior programming experience assumed."
+  links:
+    - {label: Course site, url: "https://ds4ps.org/cpp-526-fall-2019/"}
+
+- title: Program Evaluation
+  group: data
+  description: "Quantitative modeling of program impact: regression, panel methods, instrumental variables, matching, regression discontinuity, and natural experiments."
+  links:
+    - {label: Course site, url: "https://ds4ps.org/cpp-523-fall-2019/"}
+
+- title: Data-Driven Management in Public Organizations
+  group: data
+  description: "Performance management and data programming. Student teams build a model performance management system and KPI dashboard."
+  links: []
+
+# ---- Public policy ---------------------------------------------------------
+
+- title: Urban Policy
+  group: policy
+  description: "The economics of cities, sprawl and the urban/suburban divide, tools of economic development, and GIS labs in spatial analysis."
+  links: []
+
+# ---- Open textbooks & teaching resources --------------------------------------
+
+- title: Program Evaluation for the Public Sector
+  group: resources
+  description: "Open-source textbook on regression and quasi-experimental methods for program evaluation."
+  links:
+    - {label: Textbook, url: "https://ds4ps.org/pe4ps-textbook/docs/"}
+    - {label: GitHub, url: "https://github.com/DS4PS/pe4ps-textbook"}
+
+- title: Data Programming for the Social Sciences
+  group: resources
+  description: "A gentle introduction to R programming for social scientists."
+  links:
+    - {label: Textbook, url: "http://ds4ps.org/dp4ss-textbook/"}
+    - {label: GitHub, url: "https://github.com/DS4PS/dp4ss-textbook"}
+
+- title: Applied Econometrics Notes
+  code: PAF 573
+  group: resources
+  description: "Lecture notes and labs for applied econometrics."
+  links:
+    - {label: Notes, url: "https://lecy.github.io/econometrics/"}
+
+- title: Course Template
+  group: resources
+  description: "Fork this template to set up a class landing page and syllabus on GitHub Pages."
+  links:
+    - {label: Template, url: "https://ds4ps.github.io/course-template/"}
+    - {label: GitHub, url: "https://github.com/DS4PS/course-template"}

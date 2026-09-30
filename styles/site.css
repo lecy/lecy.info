@@ -1,0 +1,254 @@
+/* ---- Layout ------------------------------------------------------------ */
+
+#quarto-content > main,
+.page-layout-full main.content {
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar {
+  border-bottom: 1px solid var(--site-rule);
+}
+.navbar-brand .navbar-title {
+  font-family: "Petrona", Georgia, serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+.navbar .nav-link {
+  font-weight: 500;
+}
+
+h2 {
+  border-bottom: none;
+  margin-top: 2.75rem;
+  padding-bottom: 0.35rem;
+  position: relative;
+}
+h2::after {
+  content: "";
+  display: block;
+  width: 2.5rem;
+  height: 3px;
+  margin-top: 0.45rem;
+  background: var(--site-accent);
+  border-radius: 2px;
+}
+
+.quarto-title .subtitle,
+p.subtitle {
+  color: var(--site-muted);
+  font-size: 1.05rem;
+  line-height: 1.55;
+  margin-top: 0.5rem;
+}
+
+/* ---- Home ---------------------------------------------------------------- */
+
+.quarto-about-solana .about-entity .title,
+.quarto-about-solana h1.title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+.quarto-about-solana .about-entity .subtitle {
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--site-accent);
+}
+.quarto-about-solana .about-image {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+.about-links .about-link {
+  border-radius: 999px !important;
+  font-size: 0.85rem;
+}
+#hero-heading p {
+  font-size: 1.08rem;
+}
+
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.25rem;
+  margin-top: 2rem;
+}
+.home-block {
+  background: var(--site-card);
+  border: 1px solid var(--site-rule);
+  border-radius: 12px;
+  padding: 1.1rem 1.35rem;
+}
+.home-block h3 {
+  margin-top: 0;
+  font-size: 1.15rem;
+}
+.home-block p:last-child {
+  margin-bottom: 0;
+}
+.more-link {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* ---- Chips (link buttons) ---------------------------------------------------- */
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3em;
+  padding: 0.15rem 0.65rem;
+  border: 1px solid var(--site-rule);
+  border-radius: 999px;
+  background: var(--site-chip);
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: inherit;
+  text-decoration: none;
+  transition: border-color 0.15s, color 0.15s;
+}
+.chip:hover {
+  border-color: var(--site-accent);
+  color: var(--site-accent);
+}
+
+/* ---- Publications ------------------------------------------------------------ */
+
+.pub-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+.pub {
+  display: grid;
+  grid-template-columns: 4rem 1fr;
+  gap: 1rem;
+  padding: 1.1rem 0;
+  border-bottom: 1px solid var(--site-rule);
+}
+.pub:last-child {
+  border-bottom: none;
+}
+.pub-year {
+  font-family: "Petrona", Georgia, serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: var(--site-muted);
+  padding-top: 0.05rem;
+}
+.pub-title {
+  font-family: "Petrona", Georgia, serif;
+  font-weight: 600;
+  font-size: 1.12rem;
+  line-height: 1.35;
+}
+.pub-authors {
+  margin-top: 0.2rem;
+  font-size: 0.95rem;
+}
+.pub-authors strong {
+  font-weight: 700;
+}
+.pub-venue {
+  font-size: 0.92rem;
+  color: var(--site-muted);
+}
+.pub-type {
+  display: inline-block;
+  margin-left: 0.5rem;
+  padding: 0 0.5rem;
+  border-radius: 4px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  background: var(--site-chip);
+  color: var(--site-muted);
+  vertical-align: 1px;
+}
+.pub-note {
+  margin-top: 0.3rem;
+  font-size: 0.88rem;
+  color: var(--site-accent);
+  font-weight: 500;
+}
+.pub-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.55rem;
+}
+
+@media (max-width: 576px) {
+  .pub {
+    grid-template-columns: 1fr;
+    gap: 0.2rem;
+  }
+}
+
+/* ---- Cards (research + teaching) ------------------------------------------- */
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  gap: 1.1rem;
+  margin: 1.25rem 0 0.5rem;
+}
+.res-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--site-card);
+  border: 1px solid var(--site-rule);
+  border-radius: 12px;
+  padding: 1.1rem 1.25rem 1.2rem;
+  transition: transform 0.15s, box-shadow 0.15s, border-color 0.15s;
+}
+.res-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--site-accent);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
+}
+.res-head {
+  display: flex;
+  gap: 0.4rem;
+  margin-bottom: 0.4rem;
+}
+.res-tag {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--site-accent);
+}
+.res-tag + .res-tag {
+  color: var(--site-muted);
+}
+.res-title {
+  font-size: 1.15rem;
+  margin: 0 0 0.4rem;
+  line-height: 1.3;
+}
+.res-title a {
+  color: inherit;
+  text-decoration: none;
+}
+.res-title a:hover {
+  color: var(--site-accent);
+}
+.res-desc {
+  font-size: 0.93rem;
+  color: var(--site-muted);
+  flex-grow: 1;
+  margin-bottom: 0.75rem;
+}
+.res-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+/* Hide the default listing chrome we don't use */
+.quarto-listing-category-title { display: none; }

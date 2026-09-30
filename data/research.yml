@@ -1,0 +1,227 @@
+# Research resources -------------------------------------------------------
+#
+# Each entry becomes a card on research.qmd. `group` decides which section it
+# appears in: software | data | methods | policy
+#
+#   title, description, group: required
+#   tag:   short label shown on the card (e.g. "R package", "Dataset")
+#   links: list of {label, url}; the first link is the card's main link
+# -------------------------------------------------------------------------
+
+# ---- R packages ---------------------------------------------------------
+
+- title: irs990efile
+  group: software
+  tag: R package
+  description: "Build a research database from IRS 990 e-filer tax returns."
+  links:
+    - {label: Docs, url: "https://nonprofit-open-data-collective.github.io/irs990efile/"}
+    - {label: GitHub, url: "https://github.com/Nonprofit-Open-Data-Collective/irs990efile"}
+
+- title: fiscal
+  group: software
+  tag: R package
+  description: "Fiscal health accounting metrics for nonprofits, computed from 990 tax data."
+  links:
+    - {label: Docs, url: "https://nonprofit-open-data-collective.github.io/fiscal/"}
+    - {label: GitHub, url: "https://github.com/Nonprofit-Open-Data-Collective/fiscal"}
+
+- title: peopleparser
+  group: software
+  tag: R package
+  description: "Convert raw name strings into structured first, middle, last, and suffix fields."
+  links:
+    - {label: Docs, url: "https://nonprofit-open-data-collective.github.io/peopleparser/"}
+    - {label: GitHub, url: "https://github.com/Nonprofit-Open-Data-Collective/peopleparser"}
+
+- title: titleclassifier
+  group: software
+  tag: R package
+  description: "Standardize raw nonprofit executive titles from Form 990 Part VII."
+  links:
+    - {label: Docs, url: "https://nonprofit-open-data-collective.github.io/titleclassifier/"}
+    - {label: GitHub, url: "https://github.com/Nonprofit-Open-Data-Collective/titleclassifier"}
+
+- title: governance
+  group: software
+  tag: R package
+  description: "A governance quality index for nonprofits built from 990 e-file data."
+  links:
+    - {label: Docs, url: "https://nonprofit-open-data-collective.github.io/governance/"}
+    - {label: GitHub, url: "https://github.com/Nonprofit-Open-Data-Collective/governance"}
+
+- title: webscraper
+  group: software
+  tag: R package
+  description: "Scrape mission statements and social media handles from nonprofit websites."
+  links:
+    - {label: Docs, url: "https://nonprofit-open-data-collective.github.io/webscraper/"}
+    - {label: GitHub, url: "https://github.com/Nonprofit-Open-Data-Collective/webscraper"}
+
+- title: compensator
+  group: software
+  tag: R package
+  description: "Estimate compensation of nonprofit executives."
+  links:
+    - {label: Docs, url: "https://nonprofit-open-data-collective.github.io/compensator/"}
+    - {label: GitHub, url: "https://github.com/Nonprofit-Open-Data-Collective/compensator"}
+
+- title: npmatch
+  group: software
+  tag: R package
+  description: "Match nonprofit organizations to the IRS Business Master File when EINs are missing."
+  links:
+    - {label: Docs, url: "https://nonprofit-open-data-collective.github.io/npmatch/"}
+    - {label: GitHub, url: "https://github.com/Nonprofit-Open-Data-Collective/npmatch"}
+
+- title: usaspend
+  group: software
+  tag: R package
+  description: "Crosswalk organization IDs from USAspending.gov and normalize federal award data."
+  links:
+    - {label: Docs, url: "https://nonprofit-open-data-collective.github.io/usaspend/"}
+    - {label: GitHub, url: "https://github.com/Nonprofit-Open-Data-Collective/usaspend"}
+
+- title: formex
+  group: software
+  tag: R package
+  description: "FORMat EXpressions for detecting and standardizing semantic data types."
+  links:
+    - {label: Docs, url: "https://lecy.github.io/formex/"}
+    - {label: GitHub, url: "https://github.com/lecy/formex"}
+
+- title: pe4ps
+  group: software
+  tag: R package
+  description: "Tools for teaching and practicing program evaluation in the public and nonprofit sectors."
+  links:
+    - {label: GitHub, url: "https://github.com/DS4PS/pe4ps"}
+
+# ---- Data -----------------------------------------------------------------
+
+- title: National Center for Charitable Statistics
+  group: data
+  tag: Data portal
+  description: "The primary public source of data on U.S. nonprofits, hosted at the Urban Institute."
+  links:
+    - {label: NCCS, url: "https://nccs.urban.org/"}
+
+- title: Nonprofit Open Data Collective
+  group: data
+  tag: Community
+  description: "A consortium building open, well-documented infrastructure for nonprofit research data."
+  links:
+    - {label: Website, url: "https://nonprofit-open-data-collective.github.io/"}
+    - {label: GitHub, url: "https://github.com/Nonprofit-Open-Data-Collective"}
+    - {label: Overview (ppt), url: "s/ISTR-2018-History-of-NP-Open-Data-Collective.pptx"}
+
+- title: IRS 990 E-File Master Concordance
+  group: data
+  tag: Data standard
+  description: "Standards and documentation for building research databases from 990 e-file XML."
+  links:
+    - {label: Docs, url: "https://nonprofit-open-data-collective.github.io/irs-efile-master-concordance-file/"}
+    - {label: GitHub, url: "https://github.com/Nonprofit-Open-Data-Collective/irs-efile-master-concordance-file"}
+
+- title: Open Data for Nonprofit Research
+  group: data
+  tag: Toolkit
+  description: "Tools for creating, wrangling, and sharing nonprofit data and analysis."
+  links:
+    - {label: Website, url: "https://lecy.github.io/Open-Data-for-Nonprofit-Research/"}
+    - {label: GitHub, url: "https://github.com/lecy/Open-Data-for-Nonprofit-Research"}
+
+- title: Open 1023-EZ Dataset
+  group: data
+  tag: Dataset
+  description: "A public dataset on nonprofit start-ups from IRS Form 1023-EZ applications."
+  links:
+    - {label: Docs, url: "https://nonprofit-open-data-collective.github.io/open-1023-ez-dataset/"}
+
+- title: FAADS–NCCS Crosswalk
+  group: data
+  tag: Crosswalk
+  description: "Link federal award records (FAADS) to nonprofit records in NCCS."
+  links:
+    - {label: GitHub, url: "https://github.com/lecy/FAADS-NCCS-Crosswalk"}
+
+- title: Nonprofit Mission Taxonomies
+  group: data
+  tag: Crosswalk
+  description: "Available taxonomies and crosswalks for classifying nonprofit missions."
+  links:
+    - {label: GitHub, url: "https://github.com/Nonprofit-Open-Data-Collective/mission-taxonomies"}
+
+# ---- Methods & protocols ---------------------------------------------------
+
+- title: Wells-Du Bois Protocol
+  group: methods
+  tag: Protocol
+  description: "A protocol to promote anti-bias practices and algorithmic fairness in research using machine learning."
+  links:
+    - {label: Protocol, url: "https://lecy.github.io/wells-dubois-protocol/"}
+    - {label: Paper, url: "s/Wells-DuBois-Protocol.pdf"}
+
+- title: Bespoke Nonprofit Activity Codes
+  group: methods
+  tag: Method
+  description: "Machine learning methods for coding a million nonprofit missions."
+  links:
+    - {label: Code, url: "https://fjsantam.github.io/bespoke-npo-taxonomies/"}
+    - {label: Paper, url: "s/HowToCodeAMillionMissions-VOLUNTAS.pdf"}
+
+- title: Nonprofit Fiscal Health Metrics
+  group: methods
+  tag: Method
+  description: "Definitions and documentation for common nonprofit financial health ratios."
+  links:
+    - {label: Methods, url: "https://lecy.github.io/fiscal-health/metric-01-debt-to-asset-ratio.html"}
+
+- title: Citation Network Analysis
+  group: methods
+  tag: Method
+  description: "Constrained snowball sampling from academic databases to map the core literature of a field."
+  links:
+    - {label: Working paper, url: "http://ssrn.com/abstract=1992601"}
+    - {label: GitHub, url: "https://github.com/lecy/citation-analysis-in-R"}
+
+- title: Nonprofit Startup Diagnostic
+  group: methods
+  tag: Tool
+  description: "A tool for aspiring nonprofit entrepreneurs, built with Candid (Foundation Center) with Kresge Foundation support."
+  links:
+    - {label: Tool, url: "https://learning.candid.org/resources/nonprofit-startup-resources/"}
+    - {label: Working paper, url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2890231"}
+
+# ---- Research in action ------------------------------------------------------
+
+- title: Nonprofit Financial Risks from Government Cuts
+  group: policy
+  tag: Dashboard
+  description: "Which nonprofits are most exposed to losing government grants, by state and subsector."
+  links:
+    - {label: Dashboard, url: "https://www.urban.org/research/publication/what-financial-risk-nonprofits-losing-government-grants"}
+    - {label: Urban Wire, url: "https://www.urban.org/urban-wire/government-funding-cuts-put-nonprofits-risk-across-nation"}
+    - {label: Candid blog, url: "https://blog.candid.org/post/how-losing-government-funding-impacts-nonprofits-candid-urban-institute-data/"}
+
+- title: Nonprofit Leaders' Top Concerns Entering 2025
+  group: policy
+  tag: Policy report
+  description: "Fallon, K. et al. (2025). An analysis from the Nonprofit Trends and Impacts Study. Urban Institute."
+  links:
+    - {label: Report, url: "https://www.urban.org/research/publication/nonprofit-leaders-top-concerns-entering-2025"}
+
+- title: Federal Policy Changes and the DC, Maryland, and Virginia Economies
+  group: policy
+  tag: Policy brief
+  description: "Tatian, P. et al. (2025). Potential impacts of proposed changes to federal jobs, spending, and policy. Urban Institute."
+  links:
+    - {label: Brief, url: "https://www.urban.org/research/publication/how-proposed-changes-federal-jobs-spending-and-policy-could-affect-dc-maryland"}
+
+- title: Data Science for Public Service (DS4PS)
+  group: policy
+  tag: Initiative
+  description: "Curriculum and open resources for data science in public affairs and nonprofit programs."
+  links:
+    - {label: Website, url: "https://ds4ps.org/"}
+    - {label: GitHub, url: "https://github.com/DS4PS"}

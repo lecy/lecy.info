@@ -1,0 +1,45 @@
+project:
+  type: website
+  output-dir: _site
+  # Files in s/ keep the old Squarespace URLs (lecy.info/s/*.pdf) working.
+  resources:
+    - "s/"
+
+website:
+  title: "Jesse D. Lecy"
+  site-url: "https://www.lecy.info"
+  description: "Public affairs, nonprofit economics, and data science for the public sector."
+  favicon: images/favicon.svg
+  navbar:
+    left:
+      - text: Home
+        href: index.qmd
+      - text: Publications
+        href: publications.qmd
+      - text: Research
+        href: research.qmd
+      - text: Teaching
+        href: teaching.qmd
+    right:
+      - text: CV
+        href: s/Lecy-CV-2024.pdf
+      - icon: github
+        href: https://github.com/lecy
+        aria-label: GitHub
+      - icon: mortarboard-fill
+        href: https://scholar.google.com/citations?user=Ir8H4wMAAAAJ
+        aria-label: Google Scholar
+  page-footer:
+    left: "© Jesse D. Lecy"
+    right: "Built with [Quarto](https://quarto.org)"
+
+format:
+  html:
+    theme:
+      light: [cosmo, styles/light.scss]
+      dark: [cosmo, styles/dark.scss]
+    css: styles/site.css
+    toc: false
+    page-layout: full
+    link-external-newwindow: true
+    smooth-scroll: true

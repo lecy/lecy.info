@@ -1,0 +1,18 @@
+---
+title: "Publications"
+subtitle: "Articles, chapters, and reports. Also on [Google Scholar](https://scholar.google.com/citations?user=Ir8H4wMAAAAJ) and [ResearchGate](https://www.researchgate.net/profile/Jesse_Lecy)."
+page-layout: article
+listing:
+  id: pubs
+  contents: data/publications.yml
+  template: _ejs/publications.ejs
+  sort: "year desc"
+  filter-ui: [title, authors, venue, year]
+  sort-ui: false
+  field-display-names:
+    authors: "Authors"
+    venue: "Venue"
+---
+
+::: {#pubs}
+:::
