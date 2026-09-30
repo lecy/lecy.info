@@ -1,0 +1,26 @@
+```{=html}
+<% const withCode = items.some(i => i.code); %>
+<ul class="row-list list<%= withCode ? ' with-code' : '' %>">
+<% for (const item of items) {
+     const links = item.links || [];
+     const main = links.length ? links[0].url : null; %>
+  <li class="row-item" <%= metadataAttrs(item) %>>
+    <% if (withCode) { %><div class="row-code"><%= item.code || '' %></div><% } %>
+    <div class="row-main">
+      <span class="row-title listing-title">
+        <% if (main) { %><a href="<%- main %>"><%= item.title %></a><% } else { %><%= item.title %><% } %>
+      </span>
+      <% if (item.tag) { %><span class="row-tag"><%= item.tag %></span><% } %>
+      <% if (item.description) { %><div class="row-desc listing-description"><%= item.description %></div><% } %>
+    </div>
+    <% if (links.length) { %>
+    <div class="row-links">
+      <% for (const l of links) { %>
+        <a class="chip" href="<%- l.url %>"><%= l.label %></a>
+      <% } %>
+    </div>
+    <% } %>
+  </li>
+<% } %>
+</ul>
+```

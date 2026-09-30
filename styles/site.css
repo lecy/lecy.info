@@ -250,5 +250,144 @@ p.subtitle {
   gap: 0.4rem;
 }
 
+/* ---- Research: featured blocks + compact rows ------------------------------ */
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+  margin: 1.75rem 0 0.5rem;
+}
+/* The first (rank 1) feature is the wide lead block */
+.feature:first-child {
+  grid-column: 1 / -1;
+  padding: 1.6rem 1.8rem 1.65rem;
+}
+.feature:first-child .feature-title {
+  font-size: 1.75rem;
+}
+.feature:first-child .feature-desc {
+  font-size: 1.05rem;
+  max-width: 44rem;
+}
+@media (max-width: 640px) {
+  .feature-grid {
+    grid-template-columns: 1fr;
+  }
+  .feature:first-child {
+    padding: 1.3rem 1.4rem 1.35rem;
+  }
+  .feature:first-child .feature-title {
+    font-size: 1.45rem;
+  }
+}
+.feature {
+  display: flex;
+  flex-direction: column;
+  background: var(--site-card);
+  border: 1px solid var(--site-rule);
+  border-top: 4px solid var(--site-accent);
+  border-radius: 12px;
+  padding: 1.3rem 1.4rem 1.35rem;
+}
+.feature .res-tag {
+  margin-bottom: 0.45rem;
+}
+.feature-title {
+  font-size: 1.4rem;
+  line-height: 1.25;
+  margin: 0 0 0.6rem;
+}
+.feature-title a {
+  color: inherit;
+  text-decoration: none;
+}
+.feature-title a:hover {
+  color: var(--site-accent);
+}
+.feature-desc {
+  font-size: 0.97rem;
+  flex-grow: 1;
+  margin-bottom: 1rem;
+}
+
+.row-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 1rem 0 0.5rem;
+}
+.row-item {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.4rem 1.5rem;
+  align-items: start;
+  padding: 0.8rem 0;
+  border-bottom: 1px solid var(--site-rule);
+}
+.row-item:last-child {
+  border-bottom: none;
+}
+.row-title {
+  font-family: "Petrona", Georgia, serif;
+  font-weight: 600;
+  font-size: 1.08rem;
+}
+.row-title a {
+  color: inherit;
+  text-decoration: none;
+}
+.row-title a:hover {
+  color: var(--site-accent);
+}
+.row-tag {
+  margin-left: 0.55rem;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--site-muted);
+  vertical-align: 1px;
+}
+.row-desc {
+  font-size: 0.93rem;
+  color: var(--site-muted);
+  margin-top: 0.1rem;
+}
+.row-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.35rem;
+  padding-top: 0.2rem;
+  max-width: 14rem;
+}
+
+/* Lists with course numbers get a left gutter, like the year column on Publications */
+.with-code .row-item {
+  grid-template-columns: 5.5rem 1fr auto;
+}
+.row-code {
+  font-family: "Petrona", Georgia, serif;
+  font-weight: 600;
+  font-size: 0.98rem;
+  color: var(--site-muted);
+  white-space: nowrap;
+  padding-top: 0.1rem;
+}
+
+@media (max-width: 576px) {
+  .row-item,
+  .with-code .row-item {
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
+  }
+  .row-code:empty {
+    display: none;
+  }
+  .row-links {
+    justify-content: flex-start;
+  }
+}
+
 /* Hide the default listing chrome we don't use */
 .quarto-listing-category-title { display: none; }

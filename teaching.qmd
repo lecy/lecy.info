@@ -5,23 +5,23 @@ page-layout: article
 listing:
   - id: peda
     contents: data/teaching.yml
-    template: _ejs/cards.ejs
+    template: _ejs/rows.ejs
     include: {group: peda}
   - id: management
     contents: data/teaching.yml
-    template: _ejs/cards.ejs
+    template: _ejs/rows.ejs
     include: {group: management}
   - id: data
     contents: data/teaching.yml
-    template: _ejs/cards.ejs
+    template: _ejs/rows.ejs
     include: {group: data}
   - id: policy
     contents: data/teaching.yml
-    template: _ejs/cards.ejs
+    template: _ejs/rows.ejs
     include: {group: policy}
   - id: resources
     contents: data/teaching.yml
-    template: _ejs/cards.ejs
+    template: _ejs/rows.ejs
     include: {group: resources}
 ---
 

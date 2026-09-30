@@ -6,12 +6,18 @@
 #   title, description, group: required
 #   tag:   short label shown on the card (e.g. "R package", "Dataset")
 #   links: list of {label, url}; the first link is the card's main link
+#   featured: true shows the entry as a large block at the top of the page
+#             (instead of a row in its section); `blurb` adds a longer summary
+#             and `rank` sets the order (rank 1 is the wide lead block)
 # -------------------------------------------------------------------------
 
 # ---- R packages ---------------------------------------------------------
 
 - title: irs990efile
   group: software
+  featured: true
+  rank: 2
+  blurb: "Turns millions of IRS 990 e-filer XML returns into clean, documented research tables. It is the backbone of the NCCS e-file data and most of the packages below."
   tag: R package
   description: "Build a research database from IRS 990 e-filer tax returns."
   links:
@@ -101,6 +107,9 @@
 
 - title: National Center for Charitable Statistics
   group: data
+  featured: true
+  rank: 1
+  blurb: "The core public datasets on the U.S. nonprofit sector (IRS Business Master Files, 990 financial data, and more), plus the documentation and tools researchers use to work with them. Hosted at the Urban Institute."
   tag: Data portal
   description: "The primary public source of data on U.S. nonprofits, hosted at the Urban Institute."
   links:
@@ -197,6 +206,9 @@
 
 - title: Nonprofit Financial Risks from Government Cuts
   group: policy
+  featured: true
+  rank: 3
+  blurb: "An interactive dashboard showing which nonprofits depend most on government grants, and how exposed each state and subsector is to funding cuts."
   tag: Dashboard
   description: "Which nonprofits are most exposed to losing government grants, by state and subsector."
   links:

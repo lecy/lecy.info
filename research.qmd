@@ -3,23 +3,35 @@ title: "Research"
 subtitle: "Software, data, and methods I build and support, mostly open source and aimed at making nonprofit and public sector data easier to use."
 page-layout: article
 listing:
+  - id: featured
+    contents: data/research.yml
+    template: _ejs/features.ejs
+    include: {featured: true}
+    sort: "rank"
   - id: software
     contents: data/research.yml
-    template: _ejs/cards.ejs
+    template: _ejs/rows.ejs
     include: {group: software}
+    exclude: {featured: true}
   - id: data
     contents: data/research.yml
-    template: _ejs/cards.ejs
+    template: _ejs/rows.ejs
     include: {group: data}
+    exclude: {featured: true}
   - id: methods
     contents: data/research.yml
-    template: _ejs/cards.ejs
+    template: _ejs/rows.ejs
     include: {group: methods}
+    exclude: {featured: true}
   - id: policy
     contents: data/research.yml
-    template: _ejs/cards.ejs
+    template: _ejs/rows.ejs
     include: {group: policy}
+    exclude: {featured: true}
 ---
+
+::: {#featured}
+:::
 
 ## R packages
 
